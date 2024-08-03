@@ -78,7 +78,7 @@ if(savedCompletedTodo)
         <div className="input">
           <div className="input-item">
             <label>Title</label>
-            <input type="text" value={newTitle} onChange={(e)=>setNewTitle(e.target.value)} placeholder="Got a task ? Add it;)" />
+            <input type="text" value={newTitle} onChange={(e)=>setNewTitle(e.target.value)} placeholder="Got a task ? Add it:" />
           </div>
           <div className="input-item">
             <label>Goal/Description</label>

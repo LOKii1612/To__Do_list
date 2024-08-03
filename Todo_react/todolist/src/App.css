@@ -1,13 +1,16 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
 body{
   background-color: black;
-  color:aliceblue;
+  color: aliceblue;
   overflow:hidden;
 }
 h1{
   text-align: center;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: lavenderblush;
 }
 .wrap{
   background-color: #262626;
@@ -51,7 +54,7 @@ h1{
 }
 
 .primaryBtn{
-  background-color: blue;
+  background-color: wheat;
   height: 45px;
   width:90px;
   border-color: aliceblue;
@@ -61,14 +64,16 @@ h1{
   padding: 8px;
   margin-top: 30px;
   cursor:pointer;
-  color:aliceblue;
+  color: black;
+  font-weight: bold ;
+  
 }
 .primaryBtn:hover{
 background-color: rgb(36, 36, 134);  
 }
 
 .secondaryBtn{
-  background-color: rgba(20, 239, 56, 0.614);
+  background-color: green;
   height: 45px;
   width:90px;
   border-color: aliceblue;
@@ -78,11 +83,12 @@ background-color: rgb(36, 36, 134);
   padding: 8px;
   margin-top: 30px;
   cursor:pointer;
-  color:aliceblue;
+  color: black;
+  font-weight: bold;
 }
 .active
 {
-  background-color: blue;
+  background-color: orange;
 }
 .todo-list{
 display: flex;
@@ -136,3 +142,4 @@ flex-direction: column;
 .check-icon-hover{
   color:green;
 }
+
